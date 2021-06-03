@@ -10,7 +10,6 @@ class Detail extends Component {
       movie: [],
       favs: [],
       error: false,
-      boolFavorite: false
     };
   };
 
@@ -30,8 +29,7 @@ class Detail extends Component {
 
   // Guardar Favoritos
   saveFavs = (movie) => {
-    let { favs, boolFavorite } = this.state;
-    boolFavorite = true;
+    let { favs } = this.state;
     const favorite = {
       id: movie.id,
       title: movie.title,

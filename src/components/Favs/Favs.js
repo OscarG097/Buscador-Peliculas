@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import MovieRow from '../MovieRow/index';
+import MovieRow from '../MovieRow/Single';
 
 class Favs extends Component {
   
@@ -9,7 +9,7 @@ class Favs extends Component {
       movies: [],
       loading: false,
       error: false,
-      boolFavorite: true
+
     };
   };
   
