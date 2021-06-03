@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './styles.css';
 import Favs from '../../components/Favs/Favs';
 import Navbar from '../../components/Navbar/Navbar';
-import MovieRow from '../../components/MovieRow/Single';
+import MovieRow from '../../components/MovieRow';
 
 class Home extends Component {
 
